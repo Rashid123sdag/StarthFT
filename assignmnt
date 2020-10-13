@@ -1,0 +1,69 @@
+#include<iostream>
+using namespace std;
+
+
+/*  137187 
+	137179 
+  	137288 
+	137368 
+	137458 
+	137533 
+	131501 
+	136651 
+
+*/
+
+int main () {
+	
+
+double r;
+char choice;
+double sum;
+double power;
+double perimeter;
+double area;
+
+
+cout<<" Please Select Your Options ( Area / Perimeter)\n";
+cout<<" Option 1 : Area (a)\n";
+cout<<" Option 2 : Perimeter (b)\n";
+cout<<" Option (A or B) : ";
+cin>>choice;                        //input Choice
+
+cout<<" Please enter the radius : ";
+cin>>r;
+
+
+power=r*r;
+perimeter=3.142*sum;
+sum=r+r;
+area= 3.142*power;
+
+switch (choice) {
+	
+	case 'a':	//option a
+	case 'A':  //option A
+
+	cout<<" Your Area is : "<<area;    //area
+	
+	break;
+	
+	
+    case 'b':     //option b
+	case 'B':   //option B
+
+	cout<<" Your Perimeter is : "<<perimeter;   //perimeter
+		
+	break;
+	
+		
+	default : 
+	cout<<"Invalid!, Please select correct options given.";
+
+	break;
+}
+
+
+	return 0;
+	}
+
